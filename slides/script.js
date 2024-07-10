@@ -40,12 +40,12 @@ function showSlider(type) {
         carouselDom.classList.remove('prev');
     }, timeRunning)
 
+    /*Reinicia o auto run*/
     clearTimeout(runAutoRun);
     runAutoRun = setTimeout(() => {
         nextDom.click();
     }, timeAutoNext)
 }
-
 
 
 /*
