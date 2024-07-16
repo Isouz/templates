@@ -46,10 +46,3 @@ function showSlider(type) {
         nextDom.click();
     }, timeAutoNext)
 }
-
-
-/*
-- a animação da thumb ao pressionar prev não esta funcionando corretamente.
-
-- melhorar responsividade
-*/
